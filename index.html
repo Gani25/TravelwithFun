@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel With Fun</title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Sans:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/21ffbf0563.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">TwF</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#package" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Package
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#package">Indian</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#package">International</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#about">Trawel with Fun</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#team">Team</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#team">Founder</a></li>
+                                <li><a class="dropdown-item" href="#">Careers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Carousel -->
+        <section class="carousel-section" id="home">
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/mountain-banner-1.jpg" class="d-block w-100 carousel-img-size" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Germany</h2>
+                            <p>Dirt mountain best suitable for dirt bike and cycling enthusiast.</p>
+                            <a href="" class="btn btn-outline-light">Know more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/mountain-banner-2.jpg" class="d-block w-100 carousel-img-size" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Switzerland</h2>
+                            <p>Ice cover mountain best destination for snowboarding and viewing polar bear.</p>
+                            <a href="" class="btn btn-outline-light">Know more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/beach-banner-3.jpg" class="d-block w-100 carousel-img-size" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Goa</h2>
+                            <p>Fully clean beaches with white sand perfect destination for couple.</p>
+                            <a href="" class="btn btn-outline-light">Know more</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section my5 py-5" id="about">
+
+        <div class="container">
+            <div class="row ">
+                <div class="col col-md-6 col-sm-12 text-sm-center text-md-start text-lg-start pb-sm-4">
+                    <h2 class="display-4 ">About Us</h2>
+                    <p class="justify-paragraph">Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. Dolorem
+                        dicta
+                        magnam itaque dolor ipsam
+                        voluptatum quaerat ipsa dignissimos natus fugiat? Debitis, placeat reprehenderit. Vero, nam vel
+                        aperiam a exercitationem atque adipisci, consequuntur optio perspiciatis dicta minima magni?
+                        Laborum totam atque ipsam nobis, rerum provident blanditiis laboriosam eum quod dolore illum
+                        ratione iure. Ad ea, nihil neque laboriosam recusandae nulla fuga voluptatem labore enim alias
+                        sapiente cumque perferendis accusantium eveniet repellat ut accusamus aut? Cumque distinctio
+                        maxime animi mollitia placeat ipsam! Officia non officiis deleniti. Debitis omnis dicta error
+                        pariatur harum? Minima dignissimos distinctio id, porro sit perferendis expedita nam ab.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ipsa illo voluptatibus alias
+                        expedita maiores iste unde doloremque officia. Sint facere porro sunt dolores ducimus quibusdam
+                        eius itaque minus odit consectetur molestiae omnis, non voluptas amet maxime iure distinctio
+                        impedit nobis quam accusamus dolorem blanditiis, ad beatae. Obcaecati, quos dolore?</p>
+
+                    <button class="btn btn-outline-dark about-btn-custom" type="submit">More!!</button>
+
+                </div>
+                <div class="col col-md-6 col-sm-12 ">
+                    <div class="shadow-lg about-img mx-auto">
+                        <img src="./img/img1.jpg" alt="" class="img-fluid  w-100 rounded-4 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Our Package -->
+    <section class="packages dark-bg py-5" id="package">
+        <div class="container">
+            <h2 class="text-center display-4 pb-5 ">Our Packages</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 p-0 ">
+                    <div>
+                        <img src="./img/indian1.jpg" alt="Goa" class="img-fluid pack-img rounded-4 shadow-lg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 p-0">
+                    <div class="pack-body p-4">
+                        <h4 class="mb-3">Indian (Goa)</h4>
+                        <p class="justify-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+                            quae omnis ab laboriosam
+                            rerum ut odio sunt. Recusandae, nesciunt voluptatibus?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 p-0 mt-md-3 m-lg-0">
+                    <div>
+                        <img src="./img/indian2.jpg" alt="Goa" class="img-fluid pack-img rounded-4 shadow-lg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 p-0 mt-md-3 m-lg-0">
+                    <div class="pack-body p-4">
+                        <h4 class="mb-3">Indian (Kashmir)</h4>
+                        <p class="justify-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+                            quae omnis ab laboriosam
+                            rerum ut odio sunt. Recusandae, nesciunt voluptatibus?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-3 p-0">
+                    <div class="pack-body p-4">
+                        <h4 class="mb-3">International (Maldives)</h4>
+                        <p class="justify-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+                            quae omnis ab laboriosam
+                            rerum ut odio sunt. Recusandae, nesciunt voluptatibus?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 p-0 ">
+                    <div>
+                        <img src="./img/international1.jpg" alt="Goa" class="img-fluid pack-img rounded-4 shadow-lg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 p-0 mt-md-3 m-lg-0">
+                    <div class="pack-body p-4">
+                        <h4 class="mb-3">International (Dubai)</h4>
+                        <p class="justify-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+                            quae omnis ab laboriosam
+                            rerum ut odio sunt. Recusandae, nesciunt voluptatibus?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 p-0 mt-md-3 m-lg-0">
+                    <div>
+                        <img src="./img/international2.jpg" alt="Goa" class="img-fluid pack-img rounded-4 shadow-lg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Pricing -->
+    <section class="pricing py-5" id="pricing">
+        <div class="container">
+            <h2 class="text-center display-4">Pricing</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 pt-2">
+                    <div class="card text-center pricing-box shadow-lg rounded-4 ">
+                        <img src="./img/solo.jpg" class="card-img-top img-fluid rounded-top-4" alt="soloTravel">
+                        <div class="card-body ">
+                            <h3 class="card-title pt-1">Solo</h3>
+                            <h2 class="py-1">&#8377;11,999 <span>/Person</span></h2>
+                            <ul class="price-list">
+                                <li>Travel Solo</li>
+                                <li>Meet Like Minded People</li>
+                                <li>Food 3 times</li>
+                                <li>Bike and Camping Kit</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-dark">Book Now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 pt-2">
+                    <div class="card text-center pricing-box pricing-box-2 dark-bg shadow-lg rounded-4 ">
+                        <img src="./img/couple.jpg" class="card-img-top img-fluid rounded-top-4" alt="soloTravel">
+                        <div class="card-body ">
+                            <h3 class="card-title pt-1">Couple</h3>
+                            <h2 class="py-1">&#8377;9,999 <span>/Person</span></h2>
+                            <ul class="price-list">
+                                <li>Couple Friendly Hotels</li>
+                                <li>Surprises</li>
+                                <li>Food 3 times with candle light dinner</li>
+                                <li>Travelling Guide</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-dark">Book Now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 pt-2">
+                    <div class="card text-center pricing-box shadow-lg rounded-4 ">
+                        <img src="./img/family.jpg" class="card-img-top img-fluid rounded-top-4" alt="soloTravel">
+                        <div class="card-body ">
+                            <h3 class="card-title pt-1">Family</h3>
+                            <h2 class="py-1">&#8377;7,999 <span>/Person</span></h2>
+                            <ul class="price-list">
+                                <li>Spacious Bungalow</li>
+                                <li>Kids Play Ground</li>
+                                <li>Food 3 times</li>
+                                <li>Car with Driver</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-dark">Book Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team py-5 dark-bg" id="team">
+        <div class="container ">
+            <h2 class="text-center display-4">Our Team</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12 mt-4 mt-sm-4">
+                    <div class="card text-center rounded-0">
+                        <img src="./img/person1.jpg" class="card-img-top img-fluid rounded-0 team-img" alt="soloTravel">
+                        <div class="card-body ">
+                            <h5 class="card-title pt-1">Abdul Gani</h5>
+                            <h6 class="py-1">Founder</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus!</p>
+                            <a href="https://www.linkedin.com/in/memon-abdul-gani/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mt-4 mt-sm-4">
+                    <div class="card text-center rounded-0">
+                        <img src="./img/person1.jpg" class="card-img-top img-fluid rounded-0" alt="soloTravel">
+                        <div class="card-body ">
+                            <h5 class="card-title pt-1">Shivam Sharma</h5>
+                            <h6 class="py-1">CEO</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus!</p>
+                            <a href="https://www.linkedin.com/in/memon-abdul-gani/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mt-4 mt-sm-4">
+                    <div class="card text-center rounded-0">
+                        <img src="./img/person1.jpg" class="card-img-top img-fluid rounded-0" alt="soloTravel">
+                        <div class="card-body ">
+                            <h5 class="card-title pt-1">Maseera Memon</h5>
+                            <h6 class="py-1">CBO</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus!</p>
+                            <a href="https://www.linkedin.com/in/memon-abdul-gani/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mt-4 mt-sm-4">
+                    <div class="card text-center rounded-0">
+                        <img src="./img/person1.jpg" class="card-img-top img-fluid rounded-0" alt="soloTravel">
+                        <div class="card-body ">
+                            <h5 class="card-title pt-1">Kriti Kaur</h5>
+                            <h6 class="py-1">COO</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus!</p>
+                            <a href="https://www.linkedin.com/in/memon-abdul-gani/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class=" contact py-5" id="contact">
+        <div class="container ">
+            <h2 class="text-center display-4">Contact Us</h2>
+            <form class="row g-3 py-5 mt-5" method="post">
+                <div class="col-md-6">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="23-45 Pearl Tower">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Maharashtra</option>
+                        <option>Karnataka</option>
+                        <option>Gujrat</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Rajasthan</option>
+                        <option>Delhi</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+
+                <div class="form-floating ">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Read the terms and condition
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-lg btn-outline-dark rounded-0">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer py-3 text-center footer-bg">
+            <div class="container">
+                <div class="col12 my-3">
+                    <a href="https://www.linkedin.com/in/memon-abdul-gani/" target="_blank" class="mx-3"><i
+                            class=" fa-brands fa-linkedin fa-2xl" style="color: #fff;"></i></a>
+                    <a href="https://github.com/Gani25" target="_blank" class="mx-3"><i
+                            class=" fa-brands fa-github fa-2xl" style="color: #fff;"></i></a>
+                    <a href="https://www.instagram.com/memon_abdul_gani/" target="_blank" class="mx-3"><i
+                            class="fa-brands fa-instagram fa-2xl" style="color: #fff;"></i></a>
+                </div>
+                <div class="col-12 ">
+                    <p class="mb-0">&#169;trawelwithfun.com | All right reserved.</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courgette", cursive;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.justify-paragraph {
+  text-align: justify;
+}
+
+.dark-bg {
+  background-color: rgba(218, 208, 208, 0.55);
+}
+/* Navbar */
+.navbar-brand {
+  font-family: "Courgette", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Carousel */
+/* .carousel {
+  /* width: 100%; 
+  height: 95vh;
+} */
+.carousel-img-size {
+  width: 100%;
+  height: 80vh;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+}
+.container .row .col .about-img {
+  width: 60%;
+}
+
+/* About section */
+.about-btn-custom {
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+
+/* Package */
+.pack-img {
+  height: 15em;
+}
+
+/* Pricing section */
+.pricing-box {
+  transition: all 0.5s;
+  /* border-radius: 10px; */
+}
+
+.pricing-box:hover {
+  transform: translateY(-20px);
+  background-color: rgba(218, 208, 208, 0.55);
+}
+
+.pricing-box div .price-list {
+  margin-bottom: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.price-list li {
+  margin-bottom: 5px;
+}
+
+.pricing-box .card-title {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: inherit; /*To view as a html font */
+}
+
+.pricing-box h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: inherit;
+  color: rgb(211, 26, 26);
+}
+.pricing-box h2 span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -10px;
+  color: #555;
+}
+
+/* .pricing-box-2 {
+  background-color: #f8f9fa;
+} */
+.pricing-box-2:hover {
+  background-color: #fff;
+}
+/* Team  */
+
+/* Contact Form */
+.contact form {
+  background-color: rgba(218, 208, 208, 0.55);
+  box-shadow: 0 0 10px #3c3c3c;
+}
+.contact input,
+.contact select,
+.contact textarea {
+  background-color: transparent;
+  border-color: #555;
+  border-radius: 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/* Footer */
+.footer-bg {
+  background: rgb(33, 37, 41);
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .container .row .col .about-img {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .container .row .col .about-img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container .row .col .about-img {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .container .row .col .about-img {
+    width: 60%;
+    height: 80%;
+  }
+}
